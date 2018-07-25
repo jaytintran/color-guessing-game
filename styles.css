@@ -1,0 +1,89 @@
+* {
+	margin: 0; padding: 0;
+}
+body {
+	font-family: 'Vernada', 'Arial', 'Open Sans', sans-serif;
+	background: #232323;
+}
+h1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px 0;
+	font-size: 30px;
+	font-weight: lighter;
+	line-height: 1.1;
+	background: steelblue;
+}
+h1 span {
+	letter-spacing: 1px;
+	margin: 0;
+}
+button {
+	padding: 0 1em;
+	border: none; background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+}
+button:hover {
+	color: white;
+	background: steelblue;
+}
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+#message {
+	display: inline-block;
+	width: 20%;
+	font-size: 12px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	transition: all .2s;
+}
+#colorDisplay {
+	display: block;
+	color: gold;
+	font-size: 200%;
+}
+.square {
+	width: 30%;
+	float: left;
+	background: white;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	border-radius: 15px;
+	transition: all .2s;
+	-webkit-transition:  background .2s;
+	-moz-transition:  background .2s;
+}
+.container {
+	max-width: 50%;
+	margin: 30px auto;
+}
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 20px;
+	}
+	button {
+		padding: 0 .325em;
+	}
+	#colorDisplay {
+		font-size: 150%;
+	}
+	.container {
+		max-width: 90%;
+	}
+}
